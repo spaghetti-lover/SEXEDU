@@ -1,8 +1,9 @@
-/* Change the colors in this stylesheet to customize the game. */ 
+/* Change the colors in this stylesheet to customize the game. */
 :root {
   --color-player: #2a79d0;
   --color-hacker: #ce3d20;
 }
+
 /* Player Styles */
 
 /* .player-color {
