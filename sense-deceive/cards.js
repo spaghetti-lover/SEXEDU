@@ -111,7 +111,7 @@ var scenarios = [
     },
     playerCards : [
       {
-        description : "Tôi sẽ tìm cách thư giãn và tìm người bạn tin tưởng để chia sẻ cảm xúc. Ngoài ra, tôi có thể tìm kiếm sự giúp đỡ từ một chuyên gia tâm lý.",
+        description : "Tôi sẽ tìm cách thư giãn và tìm người bạn tin tưởng để chia sẻ cảm xúc. Ngoài ra, tôi có thể tìm sự giúp đỡ từ chuyên gia tâm lý.",
         power : 4,
       },
       {
