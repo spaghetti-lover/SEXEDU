@@ -41,7 +41,7 @@
             <!-- ***** Logo End ***** -->
             <!-- ***** Menu Start ***** -->
             <ul class="nav">
-              <li class="scroll-to-section"><a href="#top" class="active">Trang chủ</a></li>
+              <li class="scroll-to-section"><a href="index.html#top" class="active">Trang chủ</a></li>
               <li><a href="sense-deceive/index.html">Quiz</a></li>
               <li><a href="podcast-1.html">Podcast</a></li>
               <li class="has-sub">
@@ -51,7 +51,7 @@
                   <li><a href="book-parent.html">Phụ huynh</a></li>
                 </ul>
               </li>
-              <li class="scroll-to-section"><a href="meetings.html">Chatbot</a></li>
+              <li><a href="chatbot.php">Chatbot</a></li>
               <li class="scroll-to-section"><a href="#contact">Liên hệ</a></li>
             </ul>
             <a class='menu-trigger'>
@@ -205,7 +205,8 @@
                   <a href="https://weshare.vnies.edu.vn/unit/tap-1-suc-khoe-tam-than-cua-chung-ta/">
                     <h4>Tập 1: Sức khỏe tâm thần của chúng ta</h4>
                   </a>
-                  <p>Trong video này chúng ta hãy cùng giải đáp tại sao chúng ta cần phải sức khỏe tâm thần của chúng ta nhé!</p>
+                  <p>Trong video này chúng ta hãy cùng giải đáp tại sao chúng ta cần phải sức khỏe tâm thần của chúng ta
+                    nhé!</p>
                 </div>
               </div>
             </div>
@@ -226,11 +227,13 @@
                   <div class="date">
                     <h6>Nov <span>18</span></h6>
                   </div>
-                  <a href="https://weshare.vnies.edu.vn/unit/tap-2-tra-loi-cau-hoi-cua-tre-con-duoc-sinh-ra-nhu-the-nao/">
+                  <a
+                    href="https://weshare.vnies.edu.vn/unit/tap-2-tra-loi-cau-hoi-cua-tre-con-duoc-sinh-ra-nhu-the-nao/">
                     <h4>Tập 2: Trả lời câu hỏi của trẻ: Con được sinh ra như thế nào?
                     </h4>
                   </a>
-                  <p>Các bé thường rất hay tò mò về cách bản thân mình được sinh ra nhưng cha mẹ thường lảng tránh hoặc trả...</p>
+                  <p>Các bé thường rất hay tò mò về cách bản thân mình được sinh ra nhưng cha mẹ thường lảng tránh hoặc
+                    trả...</p>
                 </div>
               </div>
             </div>
@@ -279,7 +282,8 @@
                   <a href="https://weshare.vnies.edu.vn/unit/tap-1-tuoi-day-thi/">
                     <h4>Tập 1: Tuổi dậy thì</h4>
                   </a>
-                  <p>Thuật ngữ tuổi dậy thì hẳn không còn xa lạ gì với nhiều bạn nhưng liệu chúng ta có thật sự hiểu rõ tuổi dậy thì là gì và cách thích ứng với những...</p>
+                  <p>Thuật ngữ tuổi dậy thì hẳn không còn xa lạ gì với nhiều bạn nhưng liệu chúng ta có thật sự hiểu rõ
+                    tuổi dậy thì là gì và cách thích ứng với những...</p>
                 </div>
               </div>
             </div>
@@ -827,7 +831,7 @@
               </li>
               <li>
                 <h6>Địa chỉ</h6>
-                <span>Lorem ipsum dolor sit amet</span>
+                <span>Đại học Công Nghệ</span>
               </li>
               <li>
                 <h6>Website URL</h6>
@@ -840,11 +844,11 @@
     </div>
     <div class="footer">
       <p>Copyright © 2024 TEAMBRUH
-        <div>
-          <a style="color: #0866FE; margin: 5px;" href="#"><i class="fa-brands fa-facebook"></i></a>
-          <a style="color: rgb(255, 45, 45); margin: 5px;" href="#"><i class="fa-regular fa-envelope"></i></a>
-          <a style="color: palevioletred; margin: 5px;" href="#"><i class="fa-brands fa-instagram"></i></a>
-        </div>
+      <div>
+        <a style="color: #0866FE; margin: 5px;" href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a style="color: rgb(255, 45, 45); margin: 5px;" href="#"><i class="fa-regular fa-envelope"></i></a>
+        <a style="color: palevioletred; margin: 5px;" href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
     </div>
   </section>
 
@@ -872,8 +876,8 @@
 
       if (isAnimate) {
         $('body, html').animate({
-            scrollTop: reqSectionPos
-          },
+          scrollTop: reqSectionPos
+        },
           800);
       } else {
         $('body, html').scrollTop(reqSectionPos);
@@ -893,7 +897,7 @@
             currentId = $this.data('section'),
             reqLink = $('a').filter('[href*=\\#' + currentId + ']');
           reqLink.closest('li').addClass('active').
-          siblings().removeClass('active');
+            siblings().removeClass('active');
         }
       });
     };
@@ -906,6 +910,14 @@
     $(window).scroll(function () {
       checkSection();
     });
+  </script>
+  <script>
+    window.embeddedChatbotConfig = {
+      chatbotId: "i5jYK4qcg6eGet3uio1T3",
+      domain: "www.chatbase.co"
+    }
+  </script>
+  <script src="https://www.chatbase.co/embed.min.js" chatbotId="i5jYK4qcg6eGet3uio1T3" domain="www.chatbase.co" defer>
   </script>
 </body>
 

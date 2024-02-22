@@ -57,7 +57,7 @@ https://templatemo.com/tm-569-edu-meeting
                                     <li><a href="book-parent.html">Phụ huynh</a></li>
                                 </ul>
                             </li>
-                            <li><a href="index.html">ChatBot</a></li>
+                            <li><a href="chatbot.php">ChatBot</a></li>
                             <li><a href="index.html#contact">Liên hệ</a></li>
                         </ul>
                         <a class='menu-trigger'>
@@ -99,11 +99,11 @@ https://templatemo.com/tm-569-edu-meeting
         <div class="footer">
             <p>Copyright © 2024 TEAMBRUH
                 <!-- <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p> -->
-                <div>
-                    <a style="color: #0866FE; margin: 5px;" href="#"><i class="fa-brands fa-facebook"></i></a>
-                    <a style="color: rgb(255, 45, 45); margin: 5px;" href="#"><i class="fa-regular fa-envelope"></i></a>
-                    <a style="color: palevioletred; margin: 5px;" href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
+            <div>
+                <a style="color: #0866FE; margin: 5px;" href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a style="color: rgb(255, 45, 45); margin: 5px;" href="#"><i class="fa-regular fa-envelope"></i></a>
+                <a style="color: palevioletred; margin: 5px;" href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
 
         </div>
     </section>
@@ -133,8 +133,8 @@ https://templatemo.com/tm-569-edu-meeting
 
             if (isAnimate) {
                 $('body, html').animate({
-                        scrollTop: reqSectionPos
-                    },
+                    scrollTop: reqSectionPos
+                },
                     800);
             } else {
                 $('body, html').scrollTop(reqSectionPos);
@@ -154,7 +154,7 @@ https://templatemo.com/tm-569-edu-meeting
                         currentId = $this.data('section'),
                         reqLink = $('a').filter('[href*=\\#' + currentId + ']');
                     reqLink.closest('li').addClass('active').
-                    siblings().removeClass('active');
+                        siblings().removeClass('active');
                 }
             });
         };

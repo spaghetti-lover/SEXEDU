@@ -50,7 +50,7 @@
                   <li><a href="book-parent.html">Phụ huynh</a></li>
                 </ul>
               </li>
-              <li><a href="index.html">ChatBot</a></li>
+              <li><a href="chatbot.php">ChatBot</a></li>
               <li><a href="index.html#contact">Liên hệ</a></li>
             </ul>
             <a class='menu-trigger'>
@@ -83,14 +83,14 @@
             <a href="#">Tải cẩm nang</a>
           </div>
           <br>
-          <iframe style="width: 85%; height: 600px; margin: 0 auto; display: block;" src="assets/file/SO TAY DANH CHO CHA ME MAM NON.pdf"
-            frameborder="0"></iframe>
+          <iframe style="width: 85%; height: 600px; margin: 0 auto; display: block;"
+            src="assets/file/SO TAY DANH CHO CHA ME MAM NON.pdf" frameborder="0"></iframe>
         </div>
       </div>
     </div>
     <div class="footer">
-      <p>Copyright © 2024 TEAMBRUH 
-          <!-- <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p> -->
+      <p>Copyright © 2024 TEAMBRUH
+        <!-- <br>Design: <a href="https://templatemo.com" target="_parent" title="free css templates">TemplateMo</a></p> -->
       <div>
         <a style="color: #0866FE; margin: 5px;" href="#"><i class="fa-brands fa-facebook"></i></a>
         <a style="color: rgb(255, 45, 45); margin: 5px;" href="#"><i class="fa-regular fa-envelope"></i></a>
@@ -125,8 +125,8 @@
 
       if (isAnimate) {
         $('body, html').animate({
-            scrollTop: reqSectionPos
-          },
+          scrollTop: reqSectionPos
+        },
           800);
       } else {
         $('body, html').scrollTop(reqSectionPos);
@@ -146,7 +146,7 @@
             currentId = $this.data('section'),
             reqLink = $('a').filter('[href*=\\#' + currentId + ']');
           reqLink.closest('li').addClass('active').
-          siblings().removeClass('active');
+            siblings().removeClass('active');
         }
       });
     };
