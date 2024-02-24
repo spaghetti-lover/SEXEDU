@@ -5,7 +5,7 @@ require __DIR__ . '/vendor/autoload.php'; // remove this line if you use a PHP F
 
 use Orhanerday\OpenAi\OpenAi;
 
-$open_ai_key = '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';
+$open_ai_key = '';
 $open_ai = new OpenAi($open_ai_key);
 
 // $chat = $open_ai->chat([
