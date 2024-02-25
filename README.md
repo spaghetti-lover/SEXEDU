@@ -49,4 +49,4 @@ _Linux or macOS_
 export OPENAI_API_KEY=sk-gjtv.....
 ```
 ## Run
-Vào mục Run and Debug của VSCode. Ấn ![image](https://github.com/spaghetti-lover/SEXEDU/assets/69286705/4c6127a0-37bd-49ff-8dcf-b6c533b133e2). Lưu ý là phải tải extension PHP trước. Lưu ý nút đăng nhâp có thể bị lỗi nên cần ấn lại nhiều lần.
+Vào mục Run and Debug của VSCode. Ấn ![image](https://github.com/spaghetti-lover/SEXEDU/assets/69286705/4c6127a0-37bd-49ff-8dcf-b6c533b133e2) Lưu ý là phải tải extension PHP trước và nút đăng nhập có thể bị lỗi nên hãy thử ấn nhiều lần.
