@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4E0E0E">
+    <title>Nhìn hình đoán chữ</title>
+    <link rel="shortcut icon" href="images/harryicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inspiration&family=Yusei+Magic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Pantalla principal -->
+    <div class="pantalla-principal">
+        <div class="titulo">
+            <h1 class="nombre-juego">Guess Word</h1>
+            <button class="quiz-btn start-btn">Chơi</button><br>
+            <button><a class="quiz-btn start-btn" href="../game/index.html" style="text-decoration: none;">Quay
+                    lại</a></button>
+        </div>
+        <img class="hermione" src="images/puzzle.png" alt="Fondo pantalla">
+    </div>
+
+    <!-- Info Box -->
+    <div class="info-box desactivado" id="info-box">
+        <h1 class="info-box-titulo">Cách chơi?</h1>
+        <p class="info-box-frase">Nếu bạn giải được các câu đố mà chúng tôi đưa ra thì hẳn bạn rất thông minh đó</p>
+        <ul class="info-list">
+            <li class="info">1. Bạn sẽ chỉ có 15 giây để trả lời mỗi câu hỏi.</li>
+            <li class="info">2. Khi bạn đã chọn một tùy chọn, bạn sẽ không thể thay đổi câu trả lời của mình.</li>
+            <li class="info">3. Bạn sẽ không thể chọn bất kỳ tùy chọn nào sau khi hết thời gian.</li>
+            <li class="info">4. Trong khi chơi, bạn sẽ không thể thoát khỏi câu đố.</li>
+        </ul>
+        <div class="botones">
+            <button class="quiz-btn cancel-btn" id="cancel-btn">Thoát</button>
+            <button class="quiz-btn start-btn" id="start-btn">Tiếp tục</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz-box desactivado">
+        <div class="header-quiz-box">
+            <h1 class="quiz-box-titulo">Câu <span></span></h1>
+            <div class="timer">
+                <div class="timer-text">Thời gian còn lại</div>
+                <div class="timer-sec">15</div>
+            </div>
+            <div class="time-line"></div>
+        </div>
+        <section class="question-section">
+            <h2 class="question-text"></h2>
+            <ul class="option-list"></ul>
+        </section>
+        <div class="quiz-box-footer">
+            <div class="total-preguntas">
+                <p><span class="question-numb"></span> của <span class="question-total"></span> câu</p>
+            </div>
+            <button class="quiz-btn next-btn">Tiếp</button>
+        </div>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result-box desactivado">
+        <div class="icon">
+            <i class="fas"></i>
+        </div>
+        <div class="result-text"></div>
+        <div class="score-text">
+            <p>Điểm của bạn là <span class="user-score"></span> trên tổng số câu hỏi <span
+                    class="total-question"></span></p>
+        </div>
+        <div class="botones">
+            <button class="quiz-btn cancel-btn">Thoát khỏi trò chơi</button>
+        </div>
+    </div>
+    <script src="js/questions.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
