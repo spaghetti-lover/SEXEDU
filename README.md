@@ -2,7 +2,7 @@
  
 Link demo: https://www.youtube.com/watch?v=nSIavCdABPg&feature=youtu.be
 
-Link website chạy thử host bởi firebase (tải project từ github về chạy sẽ hoàn chỉnh hơn): https://sexedu-91d55.web.app/index.html#top
+Link demo website (not completed one): https://sexedu-91d55.web.app/index.html#top
 
 # SEXEDU
 
