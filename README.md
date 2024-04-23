@@ -15,7 +15,7 @@ Link demo website (not completed one): https://sexedu-91d55.web.app/index.html#t
 <https://getcomposer.org/>
 
 ## OPEN_API-KEY
-Lên link <https://platform.openai.com/api-keys> để tạo API key và sử dụng ở sau
+Go to this link <https://platform.openai.com/api-keys> to create API key
  
 ## Installation
 
@@ -25,7 +25,7 @@ You can install the package via composer:
 composer require orhanerday/open-ai
 ```
 
-Chạy cmd dòng sau:
+Run the following cmd:
 pip install openai
 
 ## Quick Start ⚡
