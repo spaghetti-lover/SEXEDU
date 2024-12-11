@@ -1,87 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iBody</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="128x128"
+      href="images/equality.png"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SexEdu</title>
-  <link rel="icon" type="image/png" sizes="128x128" href="images/equality.png" />
+    <link rel="stylesheet" href="styles/style.css" type="text/css" />
+    <link rel="stylesheet" href="customize.css" type="text/css" />
+    <script src="cards.js" type="text/javascript"></script>
 
-  <link rel="stylesheet" href="styles/style.css" type="text/css" />
-  <link rel="stylesheet" href="customize.css" type="text/css" />
-  <script src="cards.js" type="text/javascript"></script>
+    <!-- Additional icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
 
-  <!-- Additional icon library -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-
-<body>
-  <div class="game-board">
-    <div class="title-h1">
-      <a href="../game/index.html" class="turn-back"><i class="fa-solid fa-arrow-rotate-left"></i></a>
-      <h1>
-        <strong>Bảo vệ Lucy</strong> <br />
-        Chọn thẻ có câu trả lời tốt nhất để giúp đỡ Lucy nhé!
-      </h1>
-    </div>
-    <div class="hacker-area">
-      <div class="stats hacker-stats">
-        <div class="life-bar">
-          <div class="life-left hacker-color"></div>
+  <body>
+    <div class="game-board">
+      <div class="title-h1">
+        <a href="../game/index.html" class="turn-back"
+          ><i class="fa-solid fa-arrow-rotate-left"></i
+        ></a>
+        <h1>
+          <strong>Bảo vệ Lucy</strong> <br />
+          Chọn thẻ có câu trả lời tốt nhất để giúp đỡ Lucy nhé!
+        </h1>
+      </div>
+      <div class="hacker-area">
+        <div class="stats hacker-stats">
+          <div class="life-bar">
+            <div class="life-left hacker-color"></div>
+          </div>
+          <div class="life-total"></div>
+          <div class="thumbnail">
+            <img src="images/1.png" alt="hacker" />
+          </div>
+          <div class="name">Kẻ xấu</div>
         </div>
-        <div class="life-total"></div>
-        <div class="thumbnail">
-          <img src="images/1.png" alt="hacker" />
+
+        <div class="card hacker-card hacker-color">
+          <div class="text"></div>
+          <div class="power"></div>
         </div>
-        <div class="name">Kẻ xấu</div>
       </div>
 
-      <div class="card hacker-card hacker-color">
-        <div class="text"></div>
-        <div class="power"></div>
+      <div class="player-area">
+        <div class="stats player-stats">
+          <div class="life-bar">
+            <div class="life-left player-color"></div>
+          </div>
+          <div class="life-total"></div>
+          <div class="thumbnail">
+            <img src="images/2.png" alt="hacker" />
+          </div>
+          <div class="name">Lucy</div>
+        </div>
+
+        <div class="card player-card player-color">
+          <div class="text"></div>
+          <div class="power"></div>
+        </div>
+
+        <div class="card player-card player-color">
+          <div class="text"></div>
+          <div class="power"></div>
+        </div>
+
+        <div class="card player-card player-color">
+          <div class="text"></div>
+          <div class="power"></div>
+        </div>
+
+        <button class="start-game" onClick="startGame()">Chơi game!</button>
+        <button class="next-turn" onClick="playTurn()">Tiếp theo!</button>
       </div>
     </div>
 
-    <div class="player-area">
-      <div class="stats player-stats">
-        <div class="life-bar">
-          <div class="life-left player-color"></div>
-        </div>
-        <div class="life-total"></div>
-        <div class="thumbnail">
-          <img src="images/2.png" alt="hacker" />
-        </div>
-        <div class="name">Lucy</div>
+    <div class="winner-section">
+      <div>
+        <span class="winner-message">Bạn đã thua!</span>
+        <button class="restart" onClick="location.reload()">Chơi lại</button>
       </div>
-
-      <div class="card player-card player-color">
-        <div class="text"></div>
-        <div class="power"></div>
-      </div>
-
-      <div class="card player-card player-color">
-        <div class="text"></div>
-        <div class="power"></div>
-      </div>
-
-      <div class="card player-card player-color">
-        <div class="text"></div>
-        <div class="power"></div>
-      </div>
-
-      <button class="start-game" onClick="startGame()">Chơi game!</button>
-      <button class="next-turn" onClick="playTurn()">Tiếp theo!</button>
     </div>
-  </div>
 
-  <div class="winner-section">
-    <div>
-      <span class="winner-message">Bạn đã thua!</span>
-      <button class="restart" onClick="location.reload()">Chơi lại</button>
-    </div>
-  </div>
-
-  <script src="scripts/script.js" type="text/javascript"></script>
-</body>
-
+    <script src="scripts/script.js" type="text/javascript"></script>
+  </body>
 </html>
