@@ -21,7 +21,7 @@ session_destroy();
     </head>
 
     <body>
-        <h2><img src="assets/images/equality.png" alt="ảnh giới tính" style="width: 48px; height: 48px; margin-right: 8px;">SexEdu</h2>
+        <h2><img src="assets/images/equality.png" alt="ảnh giới tính" style="width: 48px; height: 48px; margin-right: 8px;">iBody</h2>
         <div class="container" id="container">
             <div class="form-container sign-up-container">
                 <form action="register.php" method="post">
@@ -57,12 +57,12 @@ session_destroy();
             <div class="overlay-container">
                 <div class="overlay">
                     <div class="overlay-panel overlay-left">
-                        <h1>Chào mừng đến với SexEdu!</h1>
+                        <h1>Chào mừng đến với iBody!</h1>
                         <p>Đăng nhập bằng thông tin của bạn</p>
                         <button class="ghost" id="signIn">Đăng nhập</button>
                     </div>
                     <div class="overlay-panel overlay-right">
-                        <h1>Chào mừng đến với SexEdu!</h1>
+                        <h1>Chào mừng đến với iBody!</h1>
                         <p>Nhập thông tin của bạn để tạo tài khoản</p>
                         <button class="ghost" id="signUp">Đăng ký</button>
                     </div>

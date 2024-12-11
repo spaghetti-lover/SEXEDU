@@ -9,7 +9,7 @@
     <meta name="author" content="Template Mo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>SexEdu</title>
+    <title>iBody</title>
     <link rel="icon" type="image/x-icon" href="assets/images/equality.png">
 
     <!-- Bootstrap core CSS -->
@@ -38,7 +38,7 @@
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="index.html" class="logo">
-                            <i class="fa-solid fa-venus-mars"></i> SexEdu
+                            <i class="fa-solid fa-venus-mars"></i> iBody
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -75,7 +75,7 @@
             <div class="flexbox">
                 <div class="chat-box">
                     <div class="chat-box-header">
-                        <h3 style="font-weight: 600;">SexEdu Chatbot<br /></h3>
+                        <h3 style="font-weight: 600;">iBody Chatbot<br /></h3>
                     </div>
                     <div id="chat_box_body" class="chat-box-body">
                         <div id="chat_messages">
